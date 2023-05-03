@@ -1,0 +1,48 @@
+.widget {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding: 10px;
+}
+.widget-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.widget-header > h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wideget-article {
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.wideget-article:hover {
+    background-color: whitesmoke;
+}
+
+.article-left {
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.widget-right {
+    flex: 1;
+}
+
+.widget-right > h4 {
+    font-size: 14px;
+}
+.widget-right > p {
+    font-size: 12px;
+    color: grey;
+}
